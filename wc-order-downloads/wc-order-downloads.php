@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Order Downloads
  * Plugin URI: https://hamnaghsheh.ir
  * Description: Adds custom download functionality to WooCommerce orders. Allows admins to assign download files to orders and customers to download them securely.
- * Version: 1.0.0
+ * Version: 1.2.0
  * Author: Soroush yasini
  * Author URI: https://hamnaghsheh.ir
  * Text Domain: wc-order-downloads
@@ -302,14 +302,14 @@ class WC_Order_Downloads {
 
             $actions['download_file'] = array(
                 'url' => esc_url( $download_url ),
-                'name' => __( 'Download File', 'wc-order-downloads' ),
+                'name' => __( 'دانلود فایل', 'wc-order-downloads' ),
                 'action' => 'download_file',
             );
         } else {
             // No file set - show disabled gray button
             $actions['download_file_disabled'] = array(
                 'url' => '#',
-                'name' => __( 'Download File', 'wc-order-downloads' ),
+                'name' => __( 'فاقد فایل', 'wc-order-downloads' ),
                 'action' => 'download_file_disabled',
             );
         }
