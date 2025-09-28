@@ -1,11 +1,13 @@
 <?php
 /**
  * Plugin Name: User File Storage System
- * Plugin URI: https://yourwebsite.com
+ * Plugin URI: https://hamnaghsheh.ir
  * Description: Custom file storage system for WooCommerce users with sharing capabilities. Users can upload files, manage storage quotas, and share files with other users.
  * Version: 1.0.0
- * Author: Your Name
- * Author URI: https://yourwebsite.com
+ * Sep 28 2025
+ * Author: Soroush Yasini
+ * Author URI: https://hamnaghsheh.ir
+ * Telegram ID : @Romanlegioner
  * Text Domain: user-file-storage
  * Requires at least: 5.0
  * Tested up to: 6.4
