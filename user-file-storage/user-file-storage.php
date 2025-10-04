@@ -3,7 +3,7 @@
  * Plugin Name: User File Storage System
  * Plugin URI: https://hamnaghsheh.ir
  * Description: Custom file storage system for WooCommerce users with sharing capabilities. Users can upload files, manage storage quotas, and share files with other users.
- * Version: 1.0.0
+ * Version: 1.2.0
  * Sep 28 2025
  * Author: Soroush Yasini
  * Author URI: https://hamnaghsheh.ir
@@ -119,7 +119,7 @@ function ufs_set_default_options() {
         update_option('ufs_default_quota', 100);
     }
     if (!get_option('ufs_allowed_types')) {
-        update_option('ufs_allowed_types', 'jpg,jpeg,png,gif,pdf,doc,docx,txt,zip');
+        update_option('ufs_allowed_types', 'jpg,jpeg,png,gif,pdf,doc,docx,txt,zip,dwg,dwf,aci,dxf');
     }
 }
 
@@ -283,33 +283,59 @@ class UserFileStorage {
     /**
      * Validate uploaded file
      */
-    private function validate_file($file) {
-        // Check file size
-        if ($file['size'] > $this->max_file_size) {
-            return false;
-        }
-        
-        // Check file type
-        $file_extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
-        if (!in_array($file_extension, $this->allowed_types)) {
-            return false;
-        }
-        
-        // Additional MIME type check
-        $finfo = finfo_open(FILEINFO_MIME_TYPE);
-        $mime_type = finfo_file($finfo, $file['tmp_name']);
-        finfo_close($finfo);
-        
-        $allowed_mimes = array(
-            'image/jpeg', 'image/png', 'image/gif',
-            'application/pdf', 'text/plain',
-            'application/msword', 
-            'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-            'application/zip'
-        );
-        
-        return in_array($mime_type, $allowed_mimes);
+private function validate_file($file) {
+    // Check file size
+    if ($file['size'] > $this->max_file_size) {
+        return false;
     }
+    
+    // Check file type
+    $file_extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
+    if (!in_array($file_extension, $this->allowed_types)) {
+        return false;
+    }
+    
+    // Additional MIME type check
+    $finfo = finfo_open(FILEINFO_MIME_TYPE);
+    $mime_type = finfo_file($finfo, $file['tmp_name']);
+    finfo_close($finfo);
+    
+    $allowed_mimes = array(
+        'image/jpeg', 'image/png', 'image/gif',
+        'application/pdf', 'text/plain',
+        'application/msword', 
+        'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        'application/zip',
+        // AutoCAD file types
+        'application/acad',
+        'application/x-acad',
+        'application/autocad_dwg',
+        'image/x-dwg',
+        'application/dwg',
+        'application/x-dwg',
+        'application/x-autocad',
+        'image/vnd.dwg',
+        'drawing/x-dwf',
+        'application/x-dwf',
+        // DXF files
+        'application/dxf',
+        'application/x-dxf',
+        'image/vnd.dxf',
+        'image/x-dxf',
+        // Generic fallback for binary CAD files
+        'application/octet-stream'
+    );
+    
+    // For CAD files, MIME type detection can be unreliable
+    // So we'll be more lenient if the extension is correct
+    if (in_array($file_extension, array('dwg', 'dwf', 'aci', 'dxf'))) {
+        // Accept if MIME is in allowed list OR is generic binary
+        return in_array($mime_type, $allowed_mimes) || 
+               $mime_type === 'application/octet-stream';
+    }
+    
+    return in_array($mime_type, $allowed_mimes);
+}
     
     /**
      * Check if user has enough storage quota
@@ -1322,6 +1348,7 @@ class UserFileStorage {
             'text/plain' => '📝',
             'application/zip' => '📦',
             'application/x-rar-compressed' => '📦',
+            'application/octet-stream' => '📐',
         );
         
         foreach ($icons as $type => $icon) {
