@@ -1,0 +1,285 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: User File Storage System\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-28 20:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.2; wp-6.8.2\n"
+"X-Domain: user-file-storage"
+
+#: user-file-storage.php:1272
+#, php-format
+msgid "(Shared by %s)"
+msgstr ""
+
+#: user-file-storage.php:447
+msgid "All Files"
+msgstr ""
+
+#: user-file-storage.php:1682
+msgid "Allowed File Types"
+msgstr ""
+
+#: user-file-storage.php:450
+msgid "Archives"
+msgstr ""
+
+#: user-file-storage.php:1815
+msgid "Average File Size"
+msgstr ""
+
+#: user-file-storage.php:1932
+#, php-format
+msgid "by %s • %s"
+msgstr ""
+
+#: user-file-storage.php:1761
+msgid "Comma-separated list of allowed file extensions"
+msgstr ""
+
+#: user-file-storage.php:478
+msgid "Currently Shared With:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Custom file storage system for WooCommerce users with sharing capabilities. "
+"Users can upload files, manage storage quotas, and share files with other "
+"users."
+msgstr ""
+
+#: user-file-storage.php:1755
+msgid "Default storage quota for new users in megabytes"
+msgstr ""
+
+#: user-file-storage.php:1674
+msgid "Default User Quota (MB)"
+msgstr ""
+
+#: user-file-storage.php:1285
+msgid "Delete"
+msgstr ""
+
+#: user-file-storage.php:449
+msgid "Documents"
+msgstr ""
+
+#: user-file-storage.php:1283 user-file-storage.php:1290
+msgid "Download"
+msgstr ""
+
+#: user-file-storage.php:1302
+msgid "Downloads: %d"
+msgstr ""
+
+#: user-file-storage.php:1659
+msgid "File Storage Settings"
+msgstr ""
+
+#: user-file-storage.php:1968
+msgid "File storage system not available."
+msgstr ""
+
+#: user-file-storage.php:1827
+msgid "Files"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://hamnaghsheh.ir"
+msgstr ""
+
+#: user-file-storage.php:448
+msgid "Images"
+msgstr ""
+
+#: user-file-storage.php:454
+msgid "Loading files..."
+msgstr ""
+
+#: user-file-storage.php:1943
+msgid "Manage Settings"
+msgstr ""
+
+#: user-file-storage.php:1666
+msgid "Max File Size (MB)"
+msgstr ""
+
+#: user-file-storage.php:433
+#, php-format
+msgid "Max file size: %sMB. Allowed types: %s"
+msgstr ""
+
+#: user-file-storage.php:1749
+msgid "Maximum file size in megabytes"
+msgstr ""
+
+#: user-file-storage.php:399
+msgid "My File Storage"
+msgstr ""
+
+#: user-file-storage.php:189 user-file-storage.php:443
+#: user-file-storage.php:1245
+msgid "My Files"
+msgstr ""
+
+#: user-file-storage.php:1727
+msgid "New Quota (MB)"
+msgstr ""
+
+#: user-file-storage.php:1238
+msgid "No files found."
+msgstr ""
+
+#: user-file-storage.php:1940
+msgid "No files uploaded yet."
+msgstr ""
+
+#: user-file-storage.php:471
+msgid "Permission Level:"
+msgstr ""
+
+#: user-file-storage.php:1863
+msgid "Please fill in all fields."
+msgstr ""
+
+#: user-file-storage.php:1964
+msgid "Please log in to access your files."
+msgstr ""
+
+#: user-file-storage.php:1829
+msgid "Quota"
+msgstr ""
+
+#: user-file-storage.php:1926
+msgid "Recent Uploads"
+msgstr ""
+
+#: user-file-storage.php:445
+msgid "Search files..."
+msgstr ""
+
+#: user-file-storage.php:467
+msgid "Search Users:"
+msgstr ""
+
+#: user-file-storage.php:1716
+msgid "Select User..."
+msgstr ""
+
+#: user-file-storage.php:1284
+msgid "Share"
+msgstr ""
+
+#: user-file-storage.php:462 user-file-storage.php:482
+msgid "Share File"
+msgstr ""
+
+#: user-file-storage.php:1253
+msgid "Shared with Me"
+msgstr ""
+
+#. Author of the plugin
+msgid "Soroush Yasini"
+msgstr ""
+
+#: user-file-storage.php:1801
+msgid "Statistic"
+msgstr ""
+
+#: user-file-storage.php:1705
+msgid "Storage Statistics"
+msgstr ""
+
+#: user-file-storage.php:403
+msgid "Storage Used:"
+msgstr ""
+
+#: user-file-storage.php:1822
+msgid "Top Storage Users"
+msgstr ""
+
+#: user-file-storage.php:1807
+msgid "Total Files"
+msgstr ""
+
+#: user-file-storage.php:1811
+msgid "Total Storage Used"
+msgstr ""
+
+#: user-file-storage.php:468
+msgid "Type username or email..."
+msgstr ""
+
+#: user-file-storage.php:1731
+msgid "Update User Quota"
+msgstr ""
+
+#: user-file-storage.php:422
+msgid "Upload File"
+msgstr ""
+
+#: user-file-storage.php:418
+msgid "Upload New File"
+msgstr ""
+
+#: user-file-storage.php:1830
+msgid "Usage %"
+msgstr ""
+
+#: user-file-storage.php:1828
+msgid "Used"
+msgstr ""
+
+#: user-file-storage.php:1713 user-file-storage.php:1826
+msgid "User"
+msgstr ""
+
+#: user-file-storage.php:1642
+msgid "User File Storage"
+msgstr ""
+
+#: user-file-storage.php:1906
+msgid "User File Storage Overview"
+msgstr ""
+
+#: user-file-storage.php:1954
+msgid "User File Storage requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: user-file-storage.php:1641 user-file-storage.php:1695
+msgid "User File Storage Settings"
+msgstr ""
+
+#. Name of the plugin
+msgid "User File Storage System"
+msgstr ""
+
+#: user-file-storage.php:1708
+msgid "User Quota Management"
+msgstr ""
+
+#: user-file-storage.php:1897
+msgid "User quota updated successfully!"
+msgstr ""
+
+#: user-file-storage.php:1802
+msgid "Value"
+msgstr ""
+
+#: user-file-storage.php:474
+msgid "View & Download"
+msgstr ""
+
+#: user-file-storage.php:473 user-file-storage.php:1292
+msgid "View Only"
+msgstr ""

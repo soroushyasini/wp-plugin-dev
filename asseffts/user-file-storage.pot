@@ -1,0 +1,491 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: User File Storage System\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-11 07:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.2; wp-6.8.2\n"
+"X-Domain: user-file-storage"
+
+#: user-file-storage.php:1386
+#, php-format
+msgid "(Shared by %s)"
+msgstr ""
+
+#: includes/projects-frontend.php:87
+msgid "+ New Folder"
+msgstr ""
+
+#: includes/projects-frontend.php:35
+msgid "+ New Project"
+msgstr ""
+
+#: includes/projects-frontend.php:43 includes/projects-frontend.php:143
+msgid "Active"
+msgstr ""
+
+#: includes/projects-frontend.php:187
+msgid "Add Member"
+msgstr ""
+
+#: user-file-storage.php:561
+msgid "All Files"
+msgstr ""
+
+#: includes/projects-frontend.php:42
+msgid "All Projects"
+msgstr ""
+
+#: user-file-storage.php:1802
+msgid "Allowed File Types"
+msgstr ""
+
+#: includes/projects-frontend.php:174
+msgid "Architect"
+msgstr ""
+
+#: includes/projects-frontend.php:45 includes/projects-frontend.php:145
+msgid "Archived"
+msgstr ""
+
+#: user-file-storage.php:564
+msgid "Archives"
+msgstr ""
+
+#: user-file-storage.php:1935
+msgid "Average File Size"
+msgstr ""
+
+#: user-file-storage.php:2053
+#, php-format
+msgid "by %s • %s"
+msgstr ""
+
+#: user-file-storage.php:1881
+msgid "Comma-separated list of allowed file extensions"
+msgstr ""
+
+#: includes/projects-frontend.php:135
+msgid "Commercial Construction"
+msgstr ""
+
+#: includes/projects-frontend.php:44 includes/projects-frontend.php:144
+msgid "Completed"
+msgstr ""
+
+#: includes/projects-frontend.php:173
+msgid "Contractor"
+msgstr ""
+
+#: includes/projects-frontend.php:211
+msgid "Create Folder"
+msgstr ""
+
+#: includes/projects-frontend.php:202
+msgid "Create New Folder"
+msgstr ""
+
+#: includes/projects-frontend.php:121
+msgid "Create New Project"
+msgstr ""
+
+#: includes/projects-frontend.php:192
+msgid "Current Team Members"
+msgstr ""
+
+#: user-file-storage.php:592
+msgid "Currently Shared With:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Custom file storage system for WooCommerce users with sharing capabilities. "
+"Users can upload files, manage storage quotas, and share files with other "
+"users."
+msgstr ""
+
+#: user-file-storage.php:1875
+msgid "Default storage quota for new users in megabytes"
+msgstr ""
+
+#: user-file-storage.php:1794
+msgid "Default User Quota (MB)"
+msgstr ""
+
+#: user-file-storage.php:1399
+msgid "Delete"
+msgstr ""
+
+#: includes/projects-frontend.php:68
+msgid "Delete Project"
+msgstr ""
+
+#: includes/projects-frontend.php:128
+msgid "Description"
+msgstr ""
+
+#: user-file-storage.php:563
+msgid "Documents"
+msgstr ""
+
+#: user-file-storage.php:1397 user-file-storage.php:1404
+msgid "Download"
+msgstr ""
+
+#: user-file-storage.php:1416
+msgid "Downloads: %d"
+msgstr ""
+
+#: includes/projects-frontend.php:62
+msgid "Edit Project"
+msgstr ""
+
+#: includes/projects-frontend.php:171
+msgid "Engineer"
+msgstr ""
+
+#: user-file-storage.php:1779
+msgid "File Storage Settings"
+msgstr ""
+
+#: user-file-storage.php:2090
+msgid "File storage system not available."
+msgstr ""
+
+#: user-file-storage.php:1947
+msgid "Files"
+msgstr ""
+
+#: includes/storage-dashboard.php:203
+msgid "Files by Type"
+msgstr ""
+
+#: includes/projects-frontend.php:207
+msgid "Folder Name"
+msgstr ""
+
+#: includes/projects-frontend.php:183
+msgid "Full Management"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://hamnaghsheh.ir"
+msgstr ""
+
+#: user-file-storage.php:562
+msgid "Images"
+msgstr ""
+
+#: includes/projects-frontend.php:137
+msgid "Infrastructure"
+msgstr ""
+
+#: user-file-storage.php:568 includes/projects-frontend.php:107
+msgid "Loading files..."
+msgstr ""
+
+#: includes/projects-frontend.php:51
+msgid "Loading projects..."
+msgstr ""
+
+#: includes/storage-dashboard.php:205 includes/storage-dashboard.php:218
+#: includes/storage-dashboard.php:230
+msgid "Loading..."
+msgstr ""
+
+#: user-file-storage.php:2064
+msgid "Manage Settings"
+msgstr ""
+
+#: includes/storage-dashboard.php:183
+msgid "Max File Size"
+msgstr ""
+
+#: user-file-storage.php:1786
+msgid "Max File Size (MB)"
+msgstr ""
+
+#: user-file-storage.php:547
+#, php-format
+msgid "Max file size: %sMB. Allowed types: %s"
+msgstr ""
+
+#: user-file-storage.php:1869
+msgid "Maximum file size in megabytes"
+msgstr ""
+
+#: includes/projects-frontend.php:175
+msgid "Member"
+msgstr ""
+
+#: user-file-storage.php:513
+msgid "My File Storage"
+msgstr ""
+
+#: user-file-storage.php:232 user-file-storage.php:557
+#: user-file-storage.php:1359
+msgid "My Files"
+msgstr ""
+
+#: includes/projects-frontend.php:29
+msgid "My Projects"
+msgstr ""
+
+#: user-file-storage.php:1847
+msgid "New Quota (MB)"
+msgstr ""
+
+#: user-file-storage.php:1352
+msgid "No files found."
+msgstr ""
+
+#: user-file-storage.php:2061
+msgid "No files uploaded yet."
+msgstr ""
+
+#: includes/projects-frontend.php:138
+msgid "Other"
+msgstr ""
+
+#: includes/projects-frontend.php:170
+msgid "Owner"
+msgstr ""
+
+#: includes/storage-dashboard.php:185
+msgid "per file"
+msgstr ""
+
+#: includes/projects-frontend.php:178
+msgid "Permission Level"
+msgstr ""
+
+#: user-file-storage.php:585
+msgid "Permission Level:"
+msgstr ""
+
+#: user-file-storage.php:1984
+msgid "Please fill in all fields."
+msgstr ""
+
+#: user-file-storage.php:2086
+msgid "Please log in to access your files."
+msgstr ""
+
+#: includes/projects-frontend.php:125
+msgid "Project Name *"
+msgstr ""
+
+#: includes/projects-frontend.php:112
+msgid "Project Team"
+msgstr ""
+
+#: includes/projects-frontend.php:131
+msgid "Project Type"
+msgstr ""
+
+#: user-file-storage.php:1949
+msgid "Quota"
+msgstr ""
+
+#: user-file-storage.php:2047
+msgid "Recent Uploads"
+msgstr ""
+
+#: includes/projects-frontend.php:136
+msgid "Renovation"
+msgstr ""
+
+#: includes/projects-frontend.php:134
+msgid "Residential Construction"
+msgstr ""
+
+#: includes/projects-frontend.php:168
+msgid "Role"
+msgstr ""
+
+#: includes/projects-frontend.php:90
+msgid "Root Folder"
+msgstr ""
+
+#: includes/projects-frontend.php:149
+msgid "Save Project"
+msgstr ""
+
+#: user-file-storage.php:559
+msgid "Search files..."
+msgstr ""
+
+#: includes/projects-frontend.php:164
+msgid "Search Users"
+msgstr ""
+
+#: user-file-storage.php:581
+msgid "Search Users:"
+msgstr ""
+
+#: includes/projects-frontend.php:133
+msgid "Select Type"
+msgstr ""
+
+#: user-file-storage.php:1836
+msgid "Select User..."
+msgstr ""
+
+#: user-file-storage.php:1398
+msgid "Share"
+msgstr ""
+
+#: user-file-storage.php:576 user-file-storage.php:596
+msgid "Share File"
+msgstr ""
+
+#: includes/projects-frontend.php:65 includes/projects-frontend.php:159
+msgid "Share Project"
+msgstr ""
+
+#: user-file-storage.php:1367
+msgid "Shared with Me"
+msgstr ""
+
+#. Author of the plugin
+msgid "Soroush Yasini"
+msgstr ""
+
+#: user-file-storage.php:1921
+msgid "Statistic"
+msgstr ""
+
+#: includes/projects-frontend.php:141
+msgid "Status"
+msgstr ""
+
+#: includes/storage-dashboard.php:154
+msgid "Storage Overview"
+msgstr ""
+
+#: user-file-storage.php:1825
+msgid "Storage Statistics"
+msgstr ""
+
+#: includes/storage-dashboard.php:193
+msgid "Storage Usage"
+msgstr ""
+
+#: includes/storage-dashboard.php:165
+msgid "Storage Used"
+msgstr ""
+
+#: user-file-storage.php:517
+msgid "Storage Used:"
+msgstr ""
+
+#: includes/projects-frontend.php:172
+msgid "Surveyor"
+msgstr ""
+
+#: user-file-storage.php:1942
+msgid "Top Storage Users"
+msgstr ""
+
+#: user-file-storage.php:1927 includes/storage-dashboard.php:174
+msgid "Total Files"
+msgstr ""
+
+#: user-file-storage.php:1931
+msgid "Total Storage Used"
+msgstr ""
+
+#: user-file-storage.php:582 includes/projects-frontend.php:165
+msgid "Type username or email..."
+msgstr ""
+
+#: user-file-storage.php:1851
+msgid "Update User Quota"
+msgstr ""
+
+#: user-file-storage.php:536 includes/projects-frontend.php:101
+msgid "Upload File"
+msgstr ""
+
+#: user-file-storage.php:532
+msgid "Upload New File"
+msgstr ""
+
+#: user-file-storage.php:1950
+msgid "Usage %"
+msgstr ""
+
+#: user-file-storage.php:1948
+msgid "Used"
+msgstr ""
+
+#: user-file-storage.php:1833 user-file-storage.php:1946
+msgid "User"
+msgstr ""
+
+#: user-file-storage.php:1762
+msgid "User File Storage"
+msgstr ""
+
+#: user-file-storage.php:2027
+msgid "User File Storage Overview"
+msgstr ""
+
+#: user-file-storage.php:2076
+msgid "User File Storage requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: user-file-storage.php:1761 user-file-storage.php:1815
+msgid "User File Storage Settings"
+msgstr ""
+
+#. Name of the plugin
+msgid "User File Storage System"
+msgstr ""
+
+#: user-file-storage.php:1828
+msgid "User Quota Management"
+msgstr ""
+
+#: user-file-storage.php:2018
+msgid "User quota updated successfully!"
+msgstr ""
+
+#: user-file-storage.php:1922
+msgid "Value"
+msgstr ""
+
+#: user-file-storage.php:588 includes/projects-frontend.php:181
+msgid "View & Download"
+msgstr ""
+
+#: user-file-storage.php:587 user-file-storage.php:1406
+#: includes/projects-frontend.php:180
+msgid "View Only"
+msgstr ""
+
+#: includes/projects-frontend.php:182
+msgid "View, Download & Upload"
+msgstr ""
+
+#: includes/projects-frontend.php:58
+msgid "← Back to Projects"
+msgstr ""
+
+#: includes/projects-frontend.php:32
+msgid "📊 Activity Log"
+msgstr ""
+
+#: includes/storage-dashboard.php:156
+msgid "🔄 Refresh"
+msgstr ""
