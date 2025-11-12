@@ -1,0 +1,50 @@
+.hamnaghsheh-dashboard {
+    font-family: 'Vazirmatn', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    min-height: 70vh;
+    margin: 0 !important;
+    background: oklch(98.4% 0.003 247.858);
+    width: 100%;
+    max-width: 100%;
+}
+
+.hamnaghsheh-dashboard *{
+    font-family: 'Vazirmatn' !important;
+}
+
+.hamnaghsheh-projects {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+}
+
+.hamnaghsheh-project-card {
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.hamnaghsheh-new-project {
+    margin-bottom: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+.hamnaghsheh-new-project input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.hamnaghsheh-new-project button {
+    padding: 8px 12px;
+    border: none;
+    background: #2b90ff;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
